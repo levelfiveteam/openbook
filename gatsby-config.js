@@ -18,7 +18,7 @@ module.exports = {
     siteUrl,
     keywords: 'openbook, documentation',
     author: {
-      name: 'level5i',
+      name: 'level5',
       url: 'https://level5.co.uk',
       email: 'hello@level5.co.uk'
     },
