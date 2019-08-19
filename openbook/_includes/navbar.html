@@ -1,0 +1,11 @@
+<div class="navbar">
+  <ul>
+    {% for category in site.categories %}
+      <li> {{ category | first }}
+        <ul>{% for item in page.categories.category %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}</ul>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
